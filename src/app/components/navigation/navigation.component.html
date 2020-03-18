@@ -2,20 +2,25 @@
     <div class="d-flex d-xl-none d-lg-none">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars" width="20" style="color: #d6d6d6;"></i>
+            <!--   Menu apple style -->
+            <div class="hamburger">
+                <span class="hamburger__top-bun"></span>
+                <span class="hamburger__bottom-bun"></span>
+            </div>
         </button>
         <a class="navbar-brand" href="/"><i class="fab fa-apple"></i></a>
-        <a class="nav-item nav-link" href="#"><i class="fas fa-shopping-bag"></i></a>
+        <a class="nav-item nav-link" href="#"><img src="../../../assets/images/bag.png" width="20" alt=""></a>
     </div>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <a class="navbar-brand d-none d-lg-block d-xl-none d-xl-block" href="/"><i class="fab fa-apple"></i></a>
+
         <div class="d-xl-none d-lg-none" id="searchMenu">
             <div id="searchSubMenu">
-                <i class="fas fa-search"></i>
+                <img src="../../../assets/images/search.png" width="20" alt="" id="searchMenuImg">
                 <input type="text" placeholder="Search apple.com">
             </div>
         </div>
         <div class="navbar-nav">
+            <a class="navbar-brand d-none d-lg-block d-xl-none d-xl-block" href="/"><i class="fab fa-apple"></i></a>
             <a class="nav-item nav-link" id="a-expanded" href="#">Mac</a>
             <a class="nav-item nav-link" id="a-expanded" href="#">iPad</a>
             <a class="nav-item nav-link" id="a-expanded" href="#">iPhone</a>
@@ -23,10 +28,10 @@
             <a class="nav-item nav-link" id="a-expanded" href="#">TV</a>
             <a class="nav-item nav-link" id="a-expanded" href="#">Music</a>
             <a class="nav-item nav-link" id="a-expanded" href="#" style="border-bottom: none;">Support</a>
-            <a class="nav-item nav-link d-none d-lg-block d-xl-none d-xl-block" href="#"><i
-                    class="fas fa-search"></i></a>
-            <a class="nav-item nav-link d-none d-lg-block d-xl-none d-xl-block" href="#"><i
-                    class="fas fa-shopping-bag"></i></a>
+            <a class="nav-item nav-link d-none d-lg-block d-xl-none d-xl-block" href="#">
+                <img src="../../../assets/images/search.png" width="18" alt=""></a>
+            <a class="nav-item nav-link d-none d-lg-block d-xl-none d-xl-block" href="#"><img
+                    src="../../../assets/images/bag.png" width="20" alt=""></a>
         </div>
     </div>
 </nav>

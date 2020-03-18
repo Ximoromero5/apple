@@ -10,6 +10,10 @@ export class NavigationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let menu = document.querySelector('.hamburger');
+    menu.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
   }
 
 }
