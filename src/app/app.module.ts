@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { Iphone11proComponent } from './components/iphone11pro/iphone11pro.component';
+import { MacbookAirComponent } from './components/macbook-air/macbook-air.component';
+import { IpadProComponent } from './components/ipad-pro/ipad-pro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    Iphone11proComponent
+    Iphone11proComponent,
+    MacbookAirComponent,
+    IpadProComponent
   ],
   imports: [
     BrowserModule,

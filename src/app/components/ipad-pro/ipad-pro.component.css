@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+section {
+  background-color: #fafafa;
+  background: url("../../../assets/images/ipad.jpg");
+  background-position-x: -750px;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 623px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+@media (max-width: 725px) {
+  section {
+    height: 546px;
+  }
+}
+
+section .top {
+  color: #333333;
+}
+
+section .top h1 {
+  font-size: 58px;
+}
+
+section .top p {
+  color: #86868b;
+  font-size: 18px;
+  margin: 0;
+}
+
+section .top a {
+  font-size: 19px;
+}
+
+@media (max-width: 1070px) {
+  section .top {
+    top: 100px;
+  }
+  section .top h1 {
+    font-size: 44px;
+  }
+  section .top h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 725px) {
+  section .top {
+    top: 80px;
+  }
+  section .top h1 {
+    font-size: 30px;
+  }
+  section .top h3 {
+    font-size: 20px;
+  }
+  section .top p {
+    font-size: 14px;
+  }
+}
+
+section .bottom {
+  bottom: 80px;
+  width: 100%;
+  height: 350px;
+}
+
+@media (max-width: 725px) {
+  section .bottom {
+    bottom: 158px;
+  }
+}
+/*# sourceMappingURL=ipad-pro.component.css.map */
