@@ -18,9 +18,9 @@ section {
   text-align: center;
   padding-top: 70px;
   @media (max-width: 725px) {
-    height: 546px;
-    background-size: cover;
-    background-position-x: -1000px;
+    height: 416px;
+    background-size: 1900px;
+    background-position: bottom;
   }
   .top {
     color: #333333;
@@ -66,3 +66,4 @@ section {
     }
   }
 }
+

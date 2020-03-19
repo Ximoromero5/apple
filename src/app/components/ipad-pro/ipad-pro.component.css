@@ -32,7 +32,9 @@ section {
 
 @media (max-width: 725px) {
   section {
-    height: 546px;
+    height: 416px;
+    background-size: 1900px;
+    background-position: bottom;
   }
 }
 
