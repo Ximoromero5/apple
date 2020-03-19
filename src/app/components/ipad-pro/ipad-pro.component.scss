@@ -19,6 +19,8 @@ section {
   padding-top: 70px;
   @media (max-width: 725px) {
     height: 546px;
+    background-size: cover;
+    background-position-x: -1000px;
   }
   .top {
     color: #333333;
