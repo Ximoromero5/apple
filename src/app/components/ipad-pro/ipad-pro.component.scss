@@ -17,11 +17,18 @@ section {
   height: 623px;
   text-align: center;
   padding-top: 70px;
+  @media (max-width: 1222px) {
+    background-position-x: -900px;
+  }
+  @media (max-width: 930px) {
+    background-position-x: -1000px;
+  }
   @media (max-width: 725px) {
     height: 416px;
-    background-size: 1900px;
+    background-size: 1600px;
     background-position: bottom;
   }
+
   .top {
     color: #333333;
     h1 {
@@ -66,4 +73,3 @@ section {
     }
   }
 }
-
