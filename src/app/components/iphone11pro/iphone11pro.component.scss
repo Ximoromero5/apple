@@ -5,9 +5,13 @@ section {
   height: 623px;
   text-align: center;
   background: #000;
+  background: url("../../../assets/images/iphone.jpg");
+  background-position: center;
   padding-top: 70px;
   @media (max-width: 725px) {
     height: 546px;
+    background: url("../../../assets/images/iphone2.jpg");
+    background-position: center;
   }
   .top {
     position: absolute;
